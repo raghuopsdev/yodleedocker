@@ -1,0 +1,12 @@
+i) Download all 3 files into local directory
+ii) Rename Dockerfile to Dockerfile.web
+iii) Rename Dockerfile.tomcat to Dockerfile.
+
+# docker build -t tomcat:8.0 .
+# docker run -d --name tomcat tomcat:8.0
+
+iv) Rename Dockerfile to Dockerfile.tomcat
+v) Rename Dockerfile.web to Dockerfile
+
+# docker build -t web:1.0 .
+# docker run -d --name tomcat -p 80:80 web:1.0
