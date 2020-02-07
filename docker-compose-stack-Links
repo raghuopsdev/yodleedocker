@@ -1,0 +1,11 @@
+Installation of compose
+https://docs.docker.com/compose/install/
+
+Saple Compose Project
+https://docs.docker.com/compose/gettingstarted/
+
+Difference between compose & stack
+https://nickjanetakis.com/blog/docker-tip-23-docker-compose-vs-docker-stack
+
+Docker Stack & Deploy - on Swarm
+https://docs.docker.com/engine/swarm/stack-deploy/
