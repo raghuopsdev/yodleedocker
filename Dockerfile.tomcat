@@ -1,0 +1,9 @@
+FROM centos:7
+RUN yum install -y wget
+RUN yum install -y java-1.8.0-openjdk
+RUN mkdir -p /usr/local/tomcat
+RUN wget http://mirrors.estointernet.in/apache/tomcat/tomcat-8/v8.5.50/bin/apache-tomcat-8.5.50.tar.gz -O /tmp/tomcat.tar.gz
+RUN cd /tmp && tar xvfz tomcat.tar.gz
+RUN cp -Rv /tmp/apache-tomcat-8.5.50/* /usr/local/tomcat/
+EXPOSE 8080
+CMD /usr/local/tomcat/bin/catalina.sh run
