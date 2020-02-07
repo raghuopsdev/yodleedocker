@@ -1,3 +1,5 @@
+This is for TOMCAT & WEB Exercise.
+
 i) Download all 3 files into local directory
 ii) Rename Dockerfile to Dockerfile.web
 iii) Rename Dockerfile.tomcat to Dockerfile.
